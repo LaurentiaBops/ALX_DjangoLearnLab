@@ -1,7 +1,7 @@
 from bookshelf.models import Book
 
-books = Book.object.all()
-books.update(title = "Nineteen Eighty-Four")
+books = Book.objects.get(title="1984")
+books.title = "Nineteen Eighty-Four"
 
 
 # Output: Nineteen Eighty-Four
