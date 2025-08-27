@@ -1,9 +1,9 @@
 from bookshelf.models import Book
 
-books = Book.objects.filter.(author="Geaorge Orwell")
-books = books.delete
+book = Book.objects.filter.(author="Geaorge Orwell")
+book = book.delete
 
-books = Book.objects.all()
+book = Book.objects.all()
 
 # Output: (1, {'Bookshelf.book': 1})
 
