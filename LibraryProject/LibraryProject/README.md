@@ -1,0 +1,1 @@
+Gain familiarity with Django
