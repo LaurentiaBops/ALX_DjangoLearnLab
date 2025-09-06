@@ -16,3 +16,5 @@ class Librarian(models.Model):
     name = models.CharField()
     library = models.OneToOneField(Library, on_delete=models.CASCADE, related_name='products')
 
+def __str__(self):
+    return self.name
