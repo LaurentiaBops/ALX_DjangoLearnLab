@@ -9,8 +9,8 @@ Library_books = Library.objects.get(name=library_name)
 books.all()
 
 """Retrieve librarian for a library"""
-library = Library.ojects.get(name=library_name)
-objects.filter(library= library)
+librarian_name = Librarian.ojects.get(library=)
+
 
 
 
