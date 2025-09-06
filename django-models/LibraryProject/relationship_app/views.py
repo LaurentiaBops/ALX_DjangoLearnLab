@@ -5,14 +5,14 @@ from .models import Library
 
 
 # Create your views here.
-class library_booklist(DetailView):
+class LibraryDetailView(DetailView):
     """Lists books stored in a specific library"""
     model = Library
     template_name = 'relationship_app/library_detail.html'
 
 
 
-def book_list(request):
+def list_books(request):
     """Lists all books stored in the database"""
     books = Book.objects.all()
     context = {'book_list':books}
