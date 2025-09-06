@@ -5,7 +5,8 @@ first_author = Author.objects.first()
 query_books = Book.objects.filter(author = first_author)
 
 """List all books in the Library"""
-Library_books = Library.objects.get()
+Library_books = Library.objects.get(name=library_name)
+books.all()
 
 """Retrieve librarian for a library"""
 Library_name = Library.ojects.get()
